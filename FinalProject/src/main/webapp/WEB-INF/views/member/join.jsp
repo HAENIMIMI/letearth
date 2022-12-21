@@ -12,7 +12,7 @@
 	<%@ include file="../include/header.jsp" %>
 	
 
-    <!--====== CONTACT FORM PART START ======-->
+    <!--====== FORM PART START ======-->
     
     <section class="contact-form-area">
         <div class="container" style="margin-top: 110px; margin-bottom: 110px;">
@@ -28,7 +28,7 @@
             
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <form id="contact-form" action="" method="post">
+                    <form id="contact-form" action="/member/join" method="post">
                         <div class="conact-form-item">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6">
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <div class="input-box mt-20">
-                                        <input type="password" placeholder="비밀번호 확인" name="member_pw">
+                                        <input type="password" placeholder="비밀번호 확인" name="member_pw2">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
@@ -78,7 +78,7 @@
 
     </section>
     
-    <!--====== CONTACT FORM PART ENDS ======-->
+    <!--====== FORM PART ENDS ======-->
 	
 	
 

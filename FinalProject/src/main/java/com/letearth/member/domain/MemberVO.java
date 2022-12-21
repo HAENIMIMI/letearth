@@ -7,7 +7,6 @@ import lombok.Data;
 @Data
 public class MemberVO {
 	private String member_id;
-	private Integer member_no;
 	private String member_pw;
 	private String member_name;
 	private String member_phone;
@@ -23,12 +22,6 @@ public class MemberVO {
 	}
 	public void setMember_id(String member_id) {
 		this.member_id = member_id;
-	}
-	public Integer getMember_no() {
-		return member_no;
-	}
-	public void setMember_no(Integer member_no) {
-		this.member_no = member_no;
 	}
 	public String getMember_pw() {
 		return member_pw;
