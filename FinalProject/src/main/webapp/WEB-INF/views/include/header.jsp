@@ -133,7 +133,7 @@
                         </div>
                         <div class="social">
                             <ul>
-                                <li><a href="#"><i class="fa fa-facebook-official"></i>회원가입/로그인</a></li>
+                                <li><a href="/member/login"><i class="fa fa-facebook-official"></i>회원가입/로그인</a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i>프로젝트 만들기</a></li>
 <!--                                 <li><a href="#"><i class="fa fa-pinterest"></i></a></li> -->
 <!--                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
